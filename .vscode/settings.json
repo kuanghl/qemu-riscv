@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        ".env*": "dotenv",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "rpp_24cxx.h": "c",
+        "rpp_sys.h": "c",
+        "stm8s.h": "c",
+        "any": "c",
+        "array": "c",
+        "charconv": "c",
+        "chrono": "c",
+        "compare": "c",
+        "functional": "c",
+        "istream": "c",
+        "memory_resource": "c",
+        "ostream": "c",
+        "ranges": "c",
+        "ratio": "c",
+        "scoped_allocator": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "variant": "c"
+    }
+}
