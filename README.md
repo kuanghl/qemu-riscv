@@ -56,6 +56,10 @@ cd qemu
 make -j$(nproc)
 make install
 
+# build test projects
+cd system/mini_verify
+make
+
 # verify
 export PATH=$(pwd)/install/rv32i/bin:${PATH}
 qemu-system-riscv32 --version
