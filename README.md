@@ -52,6 +52,7 @@ make -j$(nproc)
 
 # configure and build qemu
 cd qemu
+./configure --help
 ./configure --target-list=riscv32-softmmu,riscv64-softmmu,riscv32-linux-user,riscv64-linux-user --prefix=$(cd ..; pwd)/install/rv32i --enable-tools --enable-debug
 make -j$(nproc)
 make install
